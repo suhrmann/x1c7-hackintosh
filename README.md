@@ -1,4 +1,11 @@
-﻿# macOS on Thinkpad X1 Carbon 6th Generation, Model 20KH\*
+# macOS on Thinkpad X1 Carbon 7th Generation, Model 20QE\*
+ 
+<h2 align="center"> ‼️ Forked from Tyler Nguyen's repo <a href="https://github.com/tylernguyen/x1c6-hackintosh">x1c6-hackintosh</a> ‼️</h3>
+<p align="center">If this helped you. Please consider donating to <a href="https://github.com/tylernguyen">Tyler Nguyen</a>.</p>
+
+**Note:** I did not update most of the docs (for X1C7 / X1 Carbon 7th Gen) _yet_ 🙄
+
+-----
 
 [![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![version](https://img.shields.io/badge/10.15.5-yellow)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
@@ -9,7 +16,7 @@
 
 <img align="right" src="https://i.imgur.com/I3yUS4Q.png" alt="Critter" width="300">
 
-### Check out my blog [tylerspaper.com](https://tylerspaper.com/)
+### Check out Tyler's blog [tylerspaper.com](https://tylerspaper.com/)
 
 #### READ THE ENTIRE README.MD BEFORE YOU START.
 
