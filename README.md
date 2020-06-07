@@ -1,7 +1,10 @@
 # macOS on Thinkpad X1 Carbon 7th Generation, Model 20QE\*
  
 <h2 align="center"> ‼️ Forked from Tyler Nguyen's repo <a href="https://github.com/tylernguyen/x1c6-hackintosh">x1c6-hackintosh</a> ‼️</h3>
-<p align="center">If this helped you. Please consider donating to <a href="https://github.com/tylernguyen">Tyler Nguyen</a>.</p>
+<p align="center">
+    If this helped you. Please consider donating to <a href="https://github.com/tylernguyen">@tylernguyen / x1c6-hackintosh </a>. <br>
+    <a href="https://tylerspaper.com/support">❤️ Sponsor Tyler Nguyen</a>
+</p> 
 
 **Note:** I did not update most of the docs (for X1C7 / X1 Carbon 7th Gen) _yet_ 🙄
 
@@ -10,7 +13,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Catalina-yellow.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![version](https://img.shields.io/badge/10.15.5-yellow)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-1.45-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![MODEL](https://img.shields.io/badge/Model-20KH*-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![MODEL](https://img.shields.io/badge/Model-20QE*-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.5.9-green)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
@@ -26,7 +29,8 @@
 
 `I AM A ONE MAN TEAM, AND A FULL TIME STUDENT. SO, I MIGHT NOT BE ABLE TO RESPOND OR HELP YOU IN A TIMELY MANNER. BUT, I PROMISE I WILL GET TO YOU EVENTUALLY. PLEASE UNDERSTAND.`
 
-`Lastly, if my work here helped you. Please consider donating, it would mean a lot to me.`
+`Lastly, if my work here helped you. Please consider donating to Tyler.` <br>
+[❤️ Sponsor Tyler Nguyen](https://tylerspaper.com/support)
 
 > ## Update
 
