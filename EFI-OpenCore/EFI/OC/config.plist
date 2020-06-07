@@ -26,7 +26,7 @@
 				<key>Comment</key>
 				<string>Battery (Needs TPbattery.plist)</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-OCBAT0-TP_tx80_x1c6th.aml</string>
 			</dict>
@@ -1825,7 +1825,6 @@
 			<string>HFSPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
-			<string>TbtForcePower.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
