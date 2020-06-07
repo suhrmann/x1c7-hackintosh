@@ -48,7 +48,7 @@
 
 > ## SUMMARY:
 
-**`In short, x1c6-hackintosh is very stable and is currently my daily driver. I fully recommend this project to anyone looking for a MacBook alternative.`**
+**`In short, x1c7-hackintosh is very stable and is currently my daily driver. I fully recommend this project to anyone looking for a MacBook alternative.`**
 
 | Fully functional                                                                                                                                                    | Non-functional                                                                | Semi-functional. Additional pulls needed and welcomed.                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -84,30 +84,32 @@ Once you are ready, follow the series of README files included `docs/`.
 
 > ## MY SPECIFICATIONS:
 
-Refer to [x1c6-Platform_Specifications](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/x1c6-Platform_Specifications.pdf) for possible stock ThinkPad X1 6th Gen configurations.
+**Again: This are my hardware specs of `20QES01L00`:**
+Refer to [ThinkPad_X1_Carbon_7th_Gen_Spec.PDF](https://github.com/suhrmann/x1c7-hackintosh/blob/master/docs/references/ThinkPad_X1_Carbon_7th_Gen_Spec.PDF) for possible stock ThinkPad X1 7th Gen configurations. <br>
+Source: [Lenovo Product Specification Reference (PSREF) [psref.lenovo.com]](https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X1_Carbon_7th_Gen)
 
-| Processor Number                                                                                                                   | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
-| :--------------------------------------------------------------------------------------------------------------------------------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
-| [i7-8650U](https://ark.intel.com/content/www/us/en/ark/products/124968/intel-core-i7-8650u-processor-8m-cache-up-to-4-20-ghz.html) | 4          | 8            | 1.9 GHz        | 4.2 GHz             | 8 MB  | LPDDR3-2133  | Intel UHD 620 |
+| Processor Number                                                                                                                   | Code Name    | # of Cores | # of Threads | Base Frequency | Max Turbo Frequency | Cache | Memory Types | Graphics      |
+| :--------------------------------------------------------------------------------------------------------------------------------- | :----------- | :--------- | :----------- | :------------- | :------------------ | :---- | :----------- | :------------ |
+| [i7-8565U](https://ark.intel.com/content/www/us/en/ark/products/149091/intel-core-i7-8565u-processor-8m-cache-up-to-4-60-ghz.html) | Whiskey Lake <br>(based on Coffee Lake) | 4          | 8            | 1.8 GHz        | 4.6 GHz             | 8 MB  | LPDDR3-2133  | Intel UHD 620 |
 
-**Peripherals:**
+|                  |                 |
+| :--------------- | :-------------- |
+| **Ports**        | 2x USB 3.1 Gen 1 (Right USB Always On) |
+|                  | 2x USB 3.1 Type-C Gen 2 / Thunderbolt 3 (Power Delivery and DisplayPort) [Max 5120x2880 @60Hz] |
+|                  | HDMI 1.4b (Max 4096x2160 @24Hz) |                 |
+| **Ethernet**     | via ThinkPad Ethernet Extension Adapter Gen 2: I219-LM Ethernet (vPro) |
+| **WLAN + BT**    | Intel Wireless-AC 9560, Wi-Fi 2x2 802.11ac + Bluetooth 5.0 |
+| **WWAN(optional)** | - |
+| **Display**      | 14.0" (355mm) HDR HD (1920 x 1080) |
+| **Camera**       | IR and HD720p camera with ThinkShutte |
+| **Audio**        | Realtek ALC3286 codec  |
+| **Fingerprint reader** | ✔️ |
+| **NFC (optional)** | ✔️ |
 
-```
-Two USB 3.1 Gen 1 (Right USB Always On)
-Two USB 3.1 Type-C Gen 2 / Thunderbolt 3 (Max 5120x2880 @60Hz)
-HDMI 1.4b (Max 4096x2160 @30Hz)
-Ethernet via ThinkPad Ethernet Extension Cable Gen 2: I219-LM Ethernet (vPro)
-No WWAN
-TrackPoint: PS/2
-TrackPad: PS/2
-```
-
-**Display:**  
-`14.0" (355mm) HDR WQHD (2560x1440)`  
-**Audio:**  
-`ALC285 Audio Codec`  
-**Thunderbolt:**  
-`Intel JHL6540 (Alpine Ridge 4C) Thunderbolt 3 Bridge`
+**Further Specs:**
+ - TrackPoint: PS/2
+ - TrackPad: PS/2
+ - **Thunderbolt:**  Intel JHL6540 (Alpine Ridge 4C) Thunderbolt 3 Bridge (?)
 
 > ## Read These (References):
 
@@ -130,9 +132,11 @@ Signal: (202)-644-9951 \*This is a Signal ONLY number. You will not get a reply 
 
 > ## DONATE AND SUPPORT:
 
-https://tylerspaper.com/support/
+[https://tylerspaper.com/support](https://tylerspaper.com/support/)
 
 > ## Credits and Thank You:
+
+### Tyler Nguyen [@tylernguyen](https://github.com/tylernguyen)
 
 [@Colton-Ko](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6) for the great features template.  
 [@stevezhengshiqi](https://github.com/stevezhengshiqi) for the one-key-cpufriend script.  
