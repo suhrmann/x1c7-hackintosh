@@ -119,8 +119,12 @@ Source: [Lenovo Product Specification Reference (PSREF) [psref.lenovo.com]](http
 - [Getting Started with ACPI](https://khronokernel.github.io/Getting-Started-With-ACPI/)
 - [WhateverGreen Intel HD Manual](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-> ## OTHER x1c6-hackintosh REPOSITORIES:
+> ## OTHER x1c7-hackintosh REPOSITORIES:
 
+[acoutts / x1c7-hackintosh](https://github.com/acoutts/x1c7-hackintosh) who brought me on this project.  
+[jaehxx0925 / X1C7-Hackintosh](https://github.com/jaehxx0925/X1C7-Hackintosh) Working Clover for Catalina
+
+**x1c6-hackintosh** <br>
 [zhtengw/EFI-for-X1C6-hackintosh](https://github.com/zhtengw/EFI-for-X1C6-hackintosh)  
 [Colton-Ko/macOS-ThinkPad-X1C6](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6)  
 Create a pull request if you like to be added, final decision at my discreation.
@@ -137,6 +141,7 @@ Signal: (202)-644-9951 \*This is a Signal ONLY number. You will not get a reply 
 > ## Credits and Thank You:
 
 ### Tyler Nguyen [@tylernguyen](https://github.com/tylernguyen)
+
 
 [@Colton-Ko](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6) for the great features template.  
 [@stevezhengshiqi](https://github.com/stevezhengshiqi) for the one-key-cpufriend script.  
