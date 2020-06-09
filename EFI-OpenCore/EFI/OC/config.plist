@@ -96,6 +96,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-GPI0 - Patch to enable Trackpad via VoodooI2C</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Fake DMAC (Completeness)</string>
 				<key>Enabled</key>
 				<true/>
