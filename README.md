@@ -111,6 +111,8 @@ Source: [Lenovo Product Specification Reference (PSREF) [psref.lenovo.com]](http
  - TrackPad: PS/2
  - **Thunderbolt:**  Intel JHL6540 (Alpine Ridge 4C) Thunderbolt 3 Bridge (?)
 
+ **NOTE:** The WWAN M.2 slot does **NOT** support SSDs. "If you do manage to fit something in there, you'll be presented with this whitelist error when you try and power the laptop on" [source and photos by @acoutts [Github]](https://github.com/acoutts/x1c7-hackintosh#edit-jan-2-2020)
+
 > ## Read These (References):
 
 - [dortania Hackintosh guides](https://github.com/dortania)
