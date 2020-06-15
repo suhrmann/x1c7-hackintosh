@@ -123,7 +123,7 @@ Source: [Lenovo Product Specification Reference (PSREF) [psref.lenovo.com]](http
 | **WWAN(optional)** | - |
 | **Display**      | 14.0" (355mm) HDR HD (1920 x 1080) |
 | **Camera**       | IR and HD720p camera with ThinkShutte |
-| **Audio**        | Realtek ALC3286 codec  |
+| **Audio**        | Realtek ALC3286 codec / Linux lists it as ``Realtek ALC285``  |
 | **Fingerprint reader** | ✔️ |
 | **NFC (optional)** | ✔️ |
 
