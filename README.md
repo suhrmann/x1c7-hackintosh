@@ -71,7 +71,7 @@
 | ❓ | USB A / USB C                                  |           |
 | ❓ | Thunderbolt 3                                  | ⚠️ See [@tylernguyen/x1c6-hackintosh, Issue #24](https://github.com/tylernguyen/x1c6-hackintosh/issues/24#issuecomment-603183002)         |
 | ❓ | Webcam                                         |           |
-| ✅ | Audio                                          | ✅ _Internal Speaker_ and _Headphones_ / _Line in_ <br> ⚠️ _Internal Microphone_ not working <br> Realtek ALC285, layout 11, 21, 31 (all seem to work except Internal Microphone) ➡️ ``boot-args: alcid=11`` |
+| ✅ | Audio                                          | ✅ _Internal Speaker_ and _Headphones_ / _Line in_ <br> ⚠️ _Internal Microphone_ not working <br> Realtek ALC285, layout 11, 21, 31 (all seem to work equal) ➡️ ``boot-args: alcid=11`` |
 | ❓ | iCloud (App Store, iMessage, FaceTime, etc)    |           |
 | ❓ | HiDPI, Handoff, Sidecar                        |           |
 | ❌ | Fingerprint Reader                             | DISABLED at BIOS; If enabled in BIOS Touchpad does not work in MacOS |
