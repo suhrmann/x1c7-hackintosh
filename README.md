@@ -50,13 +50,34 @@
 
 **`In short, x1c7-hackintosh is very stable and is currently my daily driver. I fully recommend this project to anyone looking for a MacBook alternative.`**
 
-| Fully functional                                                                                                                                                    | Non-functional                                                                | Semi-functional. Additional pulls needed and welcomed.                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| WiFi, Bluetooth, Apple Continuity ✅ \*need [network card replacement](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/1_README-HARDWAREandBIOS.md) | Fingerprint Reader (not needed, DISABLED at BIOS) ❌                          | Video Output: Currently only output `2560x1440`. Though capable of 4K `4096x2150`. See [Issue #40](https://github.com/tylernguyen/x1c6-hackintosh/issues/40) ⚠️ |
-| USB A, USB C, Webcam, Audio Playback/Recording Sleep, Ethernet, Intel Graphics, TrackPoint and Trackpad, MicroSD card reader ✅                                     | Wireless WAN (DISABLED at BIOS) \*ENABLED if you have a 2nd drive connected❌ | Thunderbolt 3 hotplug partially working. See [Issue #24](https://github.com/tylernguyen/x1c6-hackintosh/issues/24#issuecomment-603183002) ⚠️                    |
-| iCloud suite: App Store, iMessage, FaceTime, iCloud Drive, etc... ✅                                                                                                | Hibernation ❌                                                                | Power management and optimizations. See [Issue #28](https://github.com/tylernguyen/x1c6-hackintosh/issues/28) ⚠️                                                |
-| Multimedia Fn keys ✅ \*need [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant)                                                                      |                                                                               |                                                                                                                                                                 |
-| PM981 installation. ✅ See [Issue #43](https://github.com/tylernguyen/x1c6-hackintosh/issues/43)                                                                    |                                                                               |                                                                                                                                                                 |
+| working | Device / Step                             | Comment            |
+|:-------:|:------------------------------------------|:-------------------|
+| ☑️ | **Basic Setup**                                 | Working base config in ``EFI-install_USB``, see release [EFI-install_USB](https://github.com/suhrmann/x1c7-hackintosh/releases/tag/EFI-install_USB) |
+| ✅ | Booting Clover Bootloader                      |                    |
+| ✅ | Booting macOS installer                        |                    |
+| ✅ | Installed to HD                                |                    |
+| ➖ | <p> **Post-Install** <p>                       |                    |
+| ✅ | Graphics                                       | Working in ``EFI-install_USB`` <br> ⚠️ ToDo: Fix HiDPI (I have 1080p display, so for me low prio) |
+| ✅ | Touchpad                                       | Requires ``VoodooI2C`` with ``XOSI`` ACPI patch|
+| ✅ | Trackpoint                                     | Requires ``VoodooPS2`` |
+| ✅ | Keyboard                                       | Requires ``VoodooPS2`` |
+| ✅ | Keyboard-Multimedia Fn keys                    | need [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) |
+| ❌ | WiFi                                           | ❗️Intel WiFi has no Kext yet (at 2020-06-15) - hoping for the awesome [@zxystd/itlwm](https://github.com/zxystd/itlwm) |
+| ❌ | Bluetooth                                      | Integrated in Intel WiFi/BT - currently (2020-06-15) unsupported  |
+| ❌ | WWAN                                           | DISABLED at BIOS |
+| ❓ | Ethernet                                       | IntelMausi (?) |
+| ❓ | Hibernation                                    |           |
+| ❓ | HDMI output                                    |           |
+| ❓ | USB A / USB C                                  |           |
+| ❓ | Thunderbolt 3                                  | ⚠️ See [@tylernguyen/x1c6-hackintosh, Issue #24](https://github.com/tylernguyen/x1c6-hackintosh/issues/24#issuecomment-603183002)         |
+| ❓ | Webcam                                         |           |
+| ❓ | Audio                                          |           |
+| ❓ | iCloud (App Store, iMessage, FaceTime, etc)    |           |
+| ❓ | HiDPI, Handoff, Sidecar                        |           |
+| ❌ | Fingerprint Reader                             | DISABLED at BIOS; If enabled in BIOS Touchpad does not work in MacOS |
+| ❓ | Power Management Optimizations                 | ⚠️ Like [@tylernguyen/x1c6-hackintosh, Issue #28](https://github.com/tylernguyen/x1c6-hackintosh/issues/28) |
+
+> ✅ Fully functional; ❓Untested, might work; ❌ Non-functional
 
 **For more information regarding certain features, please refer to [`docs/3_README-POSTinstallation.md`](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/3_README-POSTinstallation.md)**
 

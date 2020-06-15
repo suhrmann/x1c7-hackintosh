@@ -1,5 +1,7 @@
 > ## Post Installtion:
 
+### ‼️ Unchanged from @tylernguyen/x1c6-hackintosh for Lenovo X1 6th Gen‼️
+
 1. Install OpenCore on the main boot EFI partition to enable boot without the installation media. A good utility to mount your EFI folder is [corpnewt/MountEFI](https://github.com/corpnewt/MountEFI).
 2. Please reference my uploaded EFI folder to determine my current bootloader configurations as well as which kexts I am currently using. Note that for CPUFriend, please generate your own DataProvider kexts per different machine specifications and desired configurations. Use [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend).
 3. Copy the kexts you will be using to their respective directories, per bootloaders:
