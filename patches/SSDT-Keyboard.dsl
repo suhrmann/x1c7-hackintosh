@@ -15,7 +15,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
     External(_SB.PCI0.LPCB.EC.HKEY.MMTS, MethodObj)
     External(_SB.PCI0.LPCB.EC.HKEY.MMTG, MethodObj)
     External(_SB.PCI0.LPCB.EC.HKEY.MLCS, MethodObj)
-    
+
     Scope (_SB.PCI0.LPCB.EC)
     {
         Name (LED1, Zero)
@@ -54,7 +54,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ6A()
           	}
         }
-        
+
         Method (_Q15, 0, NotSerialized) // F5 - Brightness Down = F14
         {
             If (_OSI ("Darwin"))
@@ -80,7 +80,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ14()
             }
         }
-        
+
         Method (_Q16, 0, NotSerialized) // F7 - Dual Display = F16
         {
             If (_OSI ("Darwin"))
@@ -92,7 +92,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ16()
             }
         }
-        
+
         Method (_Q64, 0, NotSerialized) // F8 - Network = F17
         {
             If (_OSI ("Darwin"))
@@ -104,7 +104,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ64()
             }
         }
-        
+
         Method (_Q66, 0, NotSerialized) // F9 - Settings = F18
         {
             If (_OSI ("Darwin"))
@@ -116,7 +116,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ66()
             }
         }
-        
+
         Method (_Q60, 0, NotSerialized) // F10 - Bluetooth
         {
 
@@ -133,7 +133,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ60()
             }
         }
-        
+
         Method (_Q61, 0, NotSerialized) // F11 - Keyboard
         {
             If (_OSI ("Darwin"))
@@ -151,7 +151,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ61()
             }
         }
-        
+
         Method (_Q62, 0, NotSerialized) // F12 - Star = F19
         {
             If (_OSI ("Darwin"))
@@ -163,9 +163,9 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 \_SB.PCI0.LPCB.EC.XQ62()
             }
         }
-        
+
         Name (LED2, Zero)
-        
+
         // _Q1F - (Fn+Space) Toggle Keyboard Backlight.
         Method (_Q1F, 0, NotSerialized) // cycle keyboard backlight
         {
@@ -215,9 +215,9 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 }
             }
         }
-        
+
     }
-        
+
     Scope (_SB.PCI0.LPCB.KBD)
     {
         Method(_DSM, 4)
@@ -229,7 +229,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 "RM,oem-table-id", "Thinkpad_ClickPad",
             })
         }
-        
+
         // Overrides (the example data here is default in the Info.plist)
         Name(RMCF, Package()
         {
@@ -259,7 +259,7 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                 //"TrackpointScrollYMultiplier", 1, //Change this value to 0xFFFF in order to inverse the vertical scroll direction of the Trackpoint when holding the middle mouse button.
                 //"TrackpointScrollXMultiplier", 1, //Change this value to 0xFFFF in order to inverse the horizontal scroll direction of the Trackpoint when holding the middle mouse button.
             },
-            
+
             "Keyboard", Package()
             {
                 "Custom PS2 Map", Package()
@@ -268,9 +268,9 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
                     "e037=64", // PrtSc = F13
                     "46=80",   // Fn + K = Deadkey
                     "e045=80", // Fn + P = Deadkey
-                    "38=e05b", // Left Alt (mismapped to Left GUI by default) = Left Alt
+                    // "38=e05b", // Left Alt (mismapped to Left GUI by default) = Left Alt
                     "e038=e05c", // Right Alt (mismapped to Right GUI by default) = Right Alt
-                    "e05b=38", // Windows (mismapped to Left Alt by default) = Left GUI
+                    // "e05b=38", // Windows (mismapped to Left Alt by default) = Left GUI
                     // "1d=80", // Fn + B = Deadkey
                     // "54=80", // Fn + S = Deadkey
                 },
@@ -279,3 +279,4 @@ DefinitionBlock("", "SSDT", 2, "tyler", "x1input", 0)
     }
 }
 //EOF
+˚
