@@ -1436,6 +1436,38 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
+				<string>itlwm_v1.0.0_stable.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/itlwm</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>You should NEVER use both itlwm.kext and itlwmx.kext at the same time.</string>
+				<key>Enabled</key>
+				<false/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>itlwmx_v1.0.0_stable.kext</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/itlwmx</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2C</string>
