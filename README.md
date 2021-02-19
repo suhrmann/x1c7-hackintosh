@@ -56,25 +56,25 @@
 | ✅ | Booting Clover Bootloader                      |                    |
 | ✅ | Booting macOS installer                        |                    |
 | ✅ | Installed to HD                                |                    |
-| ➖ | <p> **Post-Install** <p>                       |                    |
+|    | <p> **Post-Install** <p>                       |                    |
 | ✅ | Graphics                                       | Working in ``EFI-install_USB`` <br> ⚠️ ToDo: Fix HiDPI (I have 1080p display, so for me low prio) |
 | ✅ | Touchpad                                       | Requires ``VoodooI2C`` with ``XOSI`` ACPI patch|
 | ✅ | Trackpoint                                     | Requires ``VoodooPS2`` |
 | ✅ | Keyboard                                       | Requires ``VoodooPS2`` |
-| ✅ | Keyboard-Multimedia Fn keys                    | need [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) |
-| ❌ | WiFi                                           | ❗️Intel WiFi has no Kext yet (at 2020-06-15) - hoping for the awesome [@zxystd/itlwm](https://github.com/zxystd/itlwm) |
-| ❌ | Bluetooth                                      | Integrated in Intel WiFi/BT - currently (2020-06-15) unsupported  |
+| ❌ | Keyboard-Multimedia Fn keys                    | Partially - need ACPI for [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) |
+| ✅ | WiFi                                           | With `itlwm` [OpenIntelWireless]. Requires companion app [HeliPort](https://openintelwireless.github.io/HeliPort/) |
+| ❌ | Bluetooth                                      | `IntelBluetoothFirmware` might depend on `AirportItlwm`, that requires Apple's secure boot  |
 | ❌ | WWAN                                           | DISABLED at BIOS |
-| ❓ | Ethernet                                       | IntelMausi (?) |
-| ❓ | Hibernation                                    |           |
-| ❌ | HDMI output                                    | _checked on 2020-06-17_ |
-| ❓ | USB A / USB C                                  |           |
-| ❓ | Thunderbolt 3                                  | ⚠️ See [@tylernguyen/x1c6-hackintosh, Issue #24](https://github.com/tylernguyen/x1c6-hackintosh/issues/24#issuecomment-603183002)         |
-| ❌ | Webcam                                         | _checked on 2020-06-17_ |
+| ✅ | Ethernet                                       | IntelMausi (?) |
+| ✅ | Hibernation                                    |           |
+| ❌ | HDMI output                                    | _checked on 2021-02-19_ |
+| ✅ | USB A / USB C                                  |           |
+| ✅ | Thunderbolt 3                                  |           |
+| ❌ | Webcam                                         | _checked on 2021-02-19_ |
 | ✅ | Audio                                          | ✅ _Internal Speaker_ and _Headphones_ / _Line in_ <br> ⚠️ _Internal Microphone_ not working <br> Realtek ALC285, layout 11, 21, 31 (all seem to work equal) ➡️ ``boot-args: alcid=11`` |
 | ❓ | iCloud (App Store, iMessage, FaceTime, etc)    |           |
 | ❓ | HiDPI, Handoff, Sidecar                        |           |
-| ❌ | Fingerprint Reader                             | DISABLED at BIOS; If enabled in BIOS Touchpad does not work in MacOS |
+| ❌ | Fingerprint Reader                             |           |
 | ❓ | Power Management Optimizations                 | ⚠️ Like [@tylernguyen/x1c6-hackintosh, Issue #28](https://github.com/tylernguyen/x1c6-hackintosh/issues/28) |
 
 > ✅ Fully functional; ❓Untested, might work; ❌ Non-functional
