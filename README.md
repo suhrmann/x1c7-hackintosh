@@ -65,7 +65,7 @@
 | ✅ | WiFi                                           | With `itlwm` [OpenIntelWireless]. Requires companion app [HeliPort](https://openintelwireless.github.io/HeliPort/) |
 | ❌ | Bluetooth                                      | `IntelBluetoothFirmware` might depend on `AirportItlwm`, that requires Apple's secure boot  |
 | ❌ | WWAN                                           | DISABLED at BIOS |
-| ✅ | Ethernet                                       | IntelMausi (?) |
+| ✅ | Ethernet                                       | vie bundled USB-C adapter with IntelMausi |
 | ✅ | Hibernation                                    |           |
 | ❌ | HDMI output                                    | _checked on 2021-02-19_ |
 | ✅ | USB A / USB C                                  |           |
