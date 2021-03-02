@@ -1,5 +1,14 @@
 # macOS on Thinkpad X1 Carbon 7th Generation, Model 20QE\*
+
+<h2 align="center"> ➡️ The latest OpenCore config for X1C7 is <a href="https://github.com/aidanchandra/x1c7-hackintosh">aidanchandra / x1c7-hackintosh</a></h2>
+
+-----
+
+# The DEPRECATED README:
  
+<details>
+<summary><strong> show/hide README </strong></summary>
+
 <h2 align="center"> ‼️ Forked from Tyler Nguyen's repo <a href="https://github.com/tylernguyen/x1c6-hackintosh">x1c6-hackintosh</a> ‼️</h3>
 <p align="center">
     If this helped you. Please consider donating to <a href="https://github.com/tylernguyen">@tylernguyen / x1c6-hackintosh </a>. <br>
@@ -179,3 +188,5 @@ The greatest thank you and appreciation to [@Acidanthera](https://github.com/aci
 And to everyone else who supports and uses my project.
 
 Please let me know if I missed you.
+
+</details>
