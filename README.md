@@ -2,6 +2,8 @@
 
 <h2 align="center"> ➡️ The latest OpenCore config for X1C7 is <a href="https://github.com/aidanchandra/x1c7-hackintosh">aidanchandra / x1c7-hackintosh</a></h2>
 
+Aidan Chandra [@aidanchandra](https://github.com/aidanchandra/x1c7-hackintosh) and I created a almost fully working HackBookPro. 
+
 -----
 
 # The DEPRECATED README:
